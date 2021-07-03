@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User-Profile</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div id="particles-js"></div>
+        <div class="main-bg">
+            <div class="main-block">
+                <div class="main-block-items">
+                    <div class="header-block">
+                        <img src="images/settings.svg" alt="icon">
+                    </div>
+                    <div class="image-block inner-block-items">
+                        <div class="profile-circle">
+                        <img src="images/profile-pic.png" alt="image">
+                    </div>
+                    </div>
+                    <div class="text-section inner-block-items">
+                        <h3>Ajay Singh</h3>
+                        <p>Front-end Web Developer</p>
+                    </div>
+                    <div class="icons-block">
+                        <ul>
+                            <li><a href="https://www.instagram.com/its.ajaysingh/" target="_blank"><img src="images/instagram.svg" alt="icon"></a></li>
+                            <li><a href="https://twitter.com/search?q=%23login&lang=en" target="_blank"><img src="images/twitter.svg" alt="icon"></a></li>
+                            <li><a href="https://www.linkedin.com/in/ajay-singh-b84134179/" target="_blank"><img src="images/linkedin.svg" alt="icon"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js" integrity="sha512-Kef5sc7gfTacR7TZKelcrRs15ipf7+t+n7Zh6mKNJbmW+/RRdCW9nwfLn4YX0s2nO6Kv5Y2ChqgIakaC6PW09A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="app.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.header-block img').on('click',function(){
+                $('.main-bg').toggleClass('dark-bg').css('transition','.2s');
+                $('.main-block-items').toggleClass('dark-main-block-items').css('transition','.2s');
+                $('.icons-block ul li').toggleClass('dark-icons-bg').css('transition','.2s');
+                $('.text-section p').toggleClass('dark-para p');
+                $('.profile-circle').toggleClass('dark-mode-border');
+            });
+        });
+    </script>
+</body>
+</html>
