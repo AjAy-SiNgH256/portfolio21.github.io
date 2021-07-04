@@ -66,10 +66,10 @@ body{
     border-radius: 50%;
     box-shadow: 0 0 6px 0px #cfcfcf;
     margin: 0 6px;
+    transition: .2s;
 }
 .icons-block ul li:hover{
     transform: scale(1.08,1.08);
-    transition: .2s;
 }
 .main-block-items {
     background-color: #fff;

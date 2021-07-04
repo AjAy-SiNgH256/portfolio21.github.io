@@ -1,0 +1,81 @@
+@media only screen and (max-width:1024px){
+    .main-block {
+        width: 33.33%;
+    }
+}
+@media only screen and (max-width:900px){
+    .main-block {
+        width: 40%;
+    }
+}
+@media only screen and (max-width:768px){
+    .main-block {
+        width: 45%;
+    }
+}
+@media only screen and (max-width:660px){
+    .main-block {
+        width: 50%;
+    }
+    .profile-circle {
+        width: 140px;
+        height: 140px;
+    }
+    .image-block img {
+        width: 140px;
+    }
+    .text-section h3 {
+        color: var(--blue);
+        font-size: 26px;
+        font-weight: 600;
+    }
+    .text-section p {
+        font-size: 17px;
+    }
+    .icons-block ul li {
+        padding: 8px;
+    }
+}
+@media only screen and (max-width:550px){
+    .main-block {
+        width: 65%;
+    }
+}
+@media only screen and (max-width:450px){
+    .profile-circle {
+        width: 125px;
+        height: 125px;
+    }
+    .image-block img {
+        width: 125px;
+    }
+    .text-section h3 {
+        color: var(--blue);
+        font-size: 24px;
+        font-weight: 600;
+    }
+    .text-section p {
+        font-size: 15px;
+    }
+    .header-block img {
+        width: 24px;
+    }
+    .icons-block ul li a img {
+        width: 20px;
+        display: block;
+        padding: 5px;
+    }
+    .icons-block ul li {
+        padding: 5px;
+    }
+}
+@media only screen and (max-width:390px){
+    .main-block {
+        width: 70%;
+    }
+}
+@media only screen and (max-width:320px){
+    .main-block {
+        width: 80%;
+    }
+}
